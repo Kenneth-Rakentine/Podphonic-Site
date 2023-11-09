@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
+import Head from './components/Head';
+import Logo from './components/Logo';
+import { useState, useEffect } from 'react';
+import Splash from './pages/Splash';
+import MicFore from './components/MicFore';
+import Nav from './components/Nav';
+
 
 function App() {
+
+  const [isLoading, setIsLoading] = useState(true);
+   
+  useEffect(()=>{
+    setTimeout(()=>{
+      setIsLoading(false);
+    }, 1500);
+  }, []);
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {isLoading ? (
+      <Splash/>
+      ) : (
+      <div>
+      <Nav/>
+        <div className='parallax'>
+     <Head/>
+     <MicFore/>
+        </div>
+     <Logo/>
+     </div>
+    )}
     </div>
   );
 }

@@ -2,30 +2,82 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navcont{
+  height:45px;
+  opacity:1;
+  /* background-color: rgba(27, 55, 41, 0.618); */
+  background-color: rgba(77, 93, 85, 0.868);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button{
+  height:42.5px;
+  margin:.5px;
+  margin-right:1.3px;
+  width:85px;
+  opacity:.7;
+  background-color: rgba(53, 60, 57, 0.618);
+  color:white;
+  cursor:pointer;
+  border-radius:2px;
+  border: inset .2px rgb(50, 71, 50);
+  box-shadow:0 0 4.4px rgb(30, 38, 36);
 }
 
-.App-link {
-  color: #61dafb;
+button:hover{
+  height:45px;
+  width:84.4px;
+  background-color: rgba(110, 142, 126, 0.618);
+  color:white;
+  cursor:pointer;
+  border-radius:2px;
+  border: inset .2px rgb(50, 71, 50);
+  opacity:.6;
+}
+
+button:active{
+  height:45px;
+  background-color: rgba(26, 33, 30, 0.803);
+  color:white;
+  cursor:pointer;
+  border-radius:2px;
+  border: inset 4px rrgb(36, 41, 36);
+  box-shadow: 0 0 0px;
+}
+
+.waveformGif{
+  display:block;
+  margin-bottom:20%;
+  width:100%;
+  height:100%;
+  opacity:.45;
+}
+
+.parallax{
+  display:grid;
+  grid-template-areas: "stack";
+  position:relative;
+}
+
+.headCont{
+  background-image: url("https://i.ibb.co/PxZCvGj/main-mic-bkg.jpg");
+  background-size:cover;
+  height:1200px;
+  grid-area: "stack";
+  /* position:absolute; */
+}
+
+.micFore{
+  width:22.3%;
+  margin-left:-1.5%;
+  margin-top:-48.3%;
+  grid-area: "stack";
+  /* position:absolute; */
+
 }
 
 @keyframes App-logo-spin {

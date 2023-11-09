@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 import Splash from './pages/Splash';
 import MicFore from './components/MicFore';
 import Nav from './components/Nav';
+import Lower from './components/Lower';
 
 
 function App() {
@@ -29,7 +30,9 @@ function App() {
      <Head/>
      <MicFore/>
         </div>
+        
      <Logo/>
+     <Lower/>
      </div>
     )}
     </div>

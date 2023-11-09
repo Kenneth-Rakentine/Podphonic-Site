@@ -80,6 +80,14 @@ button:active{
 
 }
 
+.lowerCont{
+  background-image: url("https://64.media.tumblr.com/80064ba0770a6f482076e9ae8c33d68a/tumblr_nkaf0eRcKH1s4fz4bo1_r3_500.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top:-880px;
+  height:900px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -8,7 +8,7 @@ function Head() {
 
         <img className="waveformGif" src="https://im3.ezgif.com/tmp/ezgif-3-4f44892409.gif" alt="waveform gif" />
 
-        <img className="logoImg" src="https://i.ibb.co/bXLF6jc/Pod-Phonic-good-Logo-TRansparent-CUT-SHADOW11-10-23.png" alt="" />
+        <img className="logoImg" src="https://i.ibb.co/CztcJWJ/Pod-Phonic-good-Logo-TRansparent-CUT-SHADOW-SMALLER-302x181-11-10-23.png" alt="" />
 
     </div>
   )

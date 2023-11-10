@@ -62,14 +62,15 @@ button:active{
 }
 
 .logoImg{
-  height:200px;
+  /* height:200px; */
+  width:14%;
   opacity:1;
-  margin-top:2.6%;
+  margin-top:2.1%;
   /* margin-top:49.8%; */
   /* margin-left:-1.5%; */
-  margin-right:-68.5%;
-  width:auto;
-  position:absolute;
+  margin-right:-81.5%;
+  width:20;
+  /* position:absolute; */
   left:2%;
 }
 

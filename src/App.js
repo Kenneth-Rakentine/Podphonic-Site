@@ -6,6 +6,8 @@ import Splash from './pages/Splash';
 import MicFore from './components/MicFore';
 import Nav from './components/Nav';
 import Lower from './components/Lower';
+import LogoTxt from './components/LogoTxt';
+import Top from './components/Top';
 
 
 function App() {
@@ -26,12 +28,15 @@ function App() {
       ) : (
       <div>
       <Nav/>
+      <Top/>
+      <Logo/>
+      <LogoTxt/>
         <div className='parallax'>
      <Head/>
      {/* <MicFore/> */}
         </div>
         
-     {/* <Logo/> */}
+     
      {/* <Lower/> */}
      </div>
     )}

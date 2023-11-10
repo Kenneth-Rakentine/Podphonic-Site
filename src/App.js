@@ -15,7 +15,7 @@ function App() {
   useEffect(()=>{
     setTimeout(()=>{
       setIsLoading(false);
-    }, 1500);
+    }, 1570);
   }, []);
 
 
@@ -28,11 +28,11 @@ function App() {
       <Nav/>
         <div className='parallax'>
      <Head/>
-     <MicFore/>
+     {/* <MicFore/> */}
         </div>
         
-     <Logo/>
-     <Lower/>
+     {/* <Logo/> */}
+     {/* <Lower/> */}
      </div>
     )}
     </div>

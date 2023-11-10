@@ -3,7 +3,7 @@ import React from 'react'
 function Nav() {
   return (
     <div className='navcont'>
-      <button className='btn1'>
+      {/* <button className='btn1'>
         CONTACT
       </button>
       <button className='btn1'>
@@ -17,7 +17,7 @@ function Nav() {
       </button>
       <button className='btn1'>
         LINKS
-      </button>
+      </button> */}
     </div>
   )
 }

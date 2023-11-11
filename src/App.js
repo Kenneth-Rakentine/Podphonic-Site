@@ -14,11 +14,11 @@ function App() {
 
   const [isLoading, setIsLoading] = useState(true);
    
-  useEffect(()=>{
-    setTimeout(()=>{
-      setIsLoading(false);
-    }, 1570);
-  }, []);
+  // useEffect(()=>{
+  //   setTimeout(()=>{
+  //     setIsLoading(false);
+  //   }, 1570);
+  // }, []);
 
 
   return (
@@ -37,7 +37,7 @@ function App() {
         </div>
         
      
-     {/* <Lower/> */}
+     <Lower/>
      </div>
     )}
     </div>

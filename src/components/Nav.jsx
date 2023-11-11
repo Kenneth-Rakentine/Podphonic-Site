@@ -7,16 +7,16 @@ function Nav() {
       <button className='btn1'>
         CONTACT
       </button>
-      <button className='btn1'>
+      <button className='btn2'>
         SERVICES
       </button>
-      <button className='btn1'>
+      <button className='btn3'>
         WORK
       </button>
-      <button className='btn1'>
+      <button className='btn4'>
         ABOUT
       </button>
-      <button className='btn1'>
+      <button className='btn5'>
         LINKS
       </button>
       </div>

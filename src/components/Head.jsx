@@ -10,7 +10,7 @@ function Head() {
 
         {/* <img className="logoImg" src="https://i.ibb.co/CztcJWJ/Pod-Phonic-good-Logo-TRansparent-CUT-SHADOW-SMALLER-302x181-11-10-23.png" alt="" /> */}
 
-        <img  className="logoImg" src="" alt="sketch logo img" />
+        {/* <img  className="logoImg" src="" alt="sketch logo img" /> */}
 
     </div>
   )

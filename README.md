@@ -1,6 +1,6 @@
 # PODPHONIC 
 **Precision Podcast Editing Service** 
-![LOGO](https://i.ibb.co/zbmWVCC/Podphonic-Logo.png)
+![LOGO](https://i.ibb.co/HqZSYxp/PODPHONIC-MIC-LOGO-COMPLETE-1-11-11-23.png)
 
 - 
 ## Original Wordpress Site Template:

@@ -115,14 +115,14 @@ button:active{
 }
 .waveformGif{
   /* display:block; */
-  left:-5%;
+  margin-left:-10.34%;
   margin-bottom:20%;
-  width:110%;
+  width:120%;
   bottom:-7.5%;
   /* height:82.3%; */
   height:auto;
   opacity:.36;
-  position: absolute;
+  /* position: absolute; */
   z-index:1;
 }
 

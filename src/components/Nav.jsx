@@ -1,8 +1,15 @@
 import React from 'react'
+import spray from '../assets/sprayIcon.png'
+
 
 function Nav() {
   return (
     <div className='navcont'>
+      
+      <div className="sprayContain">
+      <img src={spray} alt="spray logo img" className="sprayIcon" />
+      </div>
+
       <div className="btnContain">
       <button className='btn1'>
         CONTACT

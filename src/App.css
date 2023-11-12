@@ -16,17 +16,28 @@ background-color:black;
 .navcont{
   height:45px;
   opacity:1;
-  background-color: rgba(93, 77, 82, 0.868);
+  background-color: rgba(93, 77, 83, 0.868);
   position:relative;
+}
+
+.sprayContain{
+  display:flex;
+  margin-left:.64%;
+}
+
+.sprayIcon{
+  width:2.7%;
 }
 
 .btnContain{
   margin-right:-50%;
+  margin-top:-2.76%;
 }
 
 button{
-  height:42.5px;
-  margin:.05%;
+  height:38.5px;
+  margin:.08%;
+  margin-top:.14%;
   /* margin-right:1.3px; */
   margin-right: -7.8%;
   width:3.7%;
@@ -41,7 +52,7 @@ button{
 }
 
 button:hover{
-  height:42.3px;
+  height:38.5px;
   width:3.7%;
   background-color: rgba(106, 131, 119, 0.374);
   color:white;
@@ -53,7 +64,7 @@ button:hover{
 }
 
 button:active{
-  height:42.3px;
+  height:38.5px;
   width:3.7%;
   background-color: rgba(26, 33, 30, 0.803);
   color:white;
@@ -77,12 +88,15 @@ button:active{
 .topContain{
   height:70vh;
   color:white;
+  background-image: url('https://i.ibb.co/NtCTzbh/noisegradient2.jpg');
+  background-size: cover;
 }
 
 .mainLogo{
   width:20%;
   margin-top:5.7%;
   border-radius:18px;
+  /* box-shadow: 10px 0px 3px rgba(0, 0, 0, 0.442);  */
 }
 
 .logoImg{

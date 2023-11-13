@@ -30,8 +30,8 @@ background-color:black;
 .sprayIcon{
   /* margin-top:-.14%; */
   margin-top:3%;
-  width:5%;
-  opacity:.7;
+  width:3.9%;
+   opacity:.7;
 }
 
 .sprayIcon:hover{
@@ -57,13 +57,14 @@ button{
  margin-top:-2.76%;
   /* margin-right:1.3px; */
   /* margin-right: -7.8%; */
-  margin-right:.5%;
+  margin-right:.4%;
   width:5.7%;
-  opacity:.7;
-  background-color: rgba(53, 60, 57, 0.579);
+  opacity:.9;
+  background-color: rgba(23, 26, 24, 0.829);
   color:white;
   cursor:pointer;
   border-radius:2px;
+  font-weight:bold;
   /* border: inset 3px rgb(91, 102, 91); */
   border:none;
   box-shadow:0 0 4.4px rgb(30, 38, 36);
@@ -72,15 +73,15 @@ button{
 button:hover{
   height:20.5px;
   width:5.7%;
-  background-color: rgba(106, 131, 119, 0.374);
+  background-color: rgb(4, 5, 5);
   color:rgb(252, 244, 244);
   cursor:pointer;
-  border-radius:2px;
+  border-radius:4px;
   font-size:14px;
   font-weight:bold;
   /* border: inset .2px rgb(50, 71, 50); */
-  border-bottom:solid 4px rgb(48, 36, 36);
-  opacity:.6;
+  border-bottom:solid 3px rgb(83, 150, 105);
+  opacity:1;
   box-shadow:4px 4px 4.4px rgb(56, 82, 75);
 }
 
@@ -111,8 +112,27 @@ button:active{
 .topContain{
   height:80vh;
   color:white;
-  background-image: url('https://i.ibb.co/NtCTzbh/noisegradient2.jpg');
+  /* background-image: url('https://i.ibb.co/NtCTzbh/noisegradient2.jpg'); */
+
+  background-image: url("./assets/deepgreen.jpg");
+
+  /* background: #050505 url(https://grainy-gradients.vercel.app/noise.svg); */
+
+  /* filter: contrast(120%) brightness(200%);
+  background: 
+	linear-gradient(0deg, rgba(31,31,41,1), rgba(76,129,92,0.85)),
+	linear-gradient(30deg, rgba(93,131,93,1), rgba(61,51,36,1)),
+	url("data:image/svg+xml,%3Csvg viewBox='0 0 384 384' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='4.79' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"); */
+
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-mask-image: url(
+    
+    );
+  mask-image: linear-gradient(
+   
+    );
   -webkit-mask-image: linear-gradient(
     rgb(0 0 0 / 1) 60%,
     rgba(0, 0, 0, 0.5) 94%,
@@ -134,7 +154,8 @@ button:active{
   width:3.1%;
   margin-right:-70%;
   margin-top:.8%;
-  opacity:.64;
+  /* opacity:.64; */
+  opacity: 1;
   /* height:100px; */
   cursor:pointer;
 }
@@ -142,19 +163,22 @@ button:active{
 .fb:hover{
   opacity:1;
   cursor:pointer;
+  opacity: .85;
 }
 
 .xIcon{
   margin-left:76.2%;
   margin-top: -6%;
-  margin-bottom:1.1%;
+  margin-bottom:1.4%;
   width:3.1%;
-  opacity:.64;
+  /* opacity:.64; */
+  opacity: 1.5;
 }
 
 .xIcon:hover{
   opacity:1;
   cursor:pointer;
+  opacity: .85;
 }
 
 .mainLogo{
@@ -296,7 +320,7 @@ box-shadow: 6.6px 6.7px 5px rgba(21, 28, 22, 0.77);
 }
 
 .bottomCont{
-  background-color:rgb(52, 46, 46);
+  background-color:rgb(0, 0, 0);
   height:100vh;
   z-index:2;
   margin-top:-5%;

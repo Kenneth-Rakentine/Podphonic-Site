@@ -1,13 +1,19 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
-import mainLogo from '../assets/mainLogo.png'
-import spray from '../assets/sprayIcon.png'
+import mainLogo from '../assets/mainLogo.png';
+import spray from '../assets/sprayIcon.png';
+import fb from '../assets/fb.png';
+import x from '../assets/x.png';
 
 function Top() {
 
     const reload = ()=>{
         window.location.href= '/'
-    }
+    };
+
+    // const facebook = 'https://www.facebook.com/podphonic';
+
+    // const twitter = 'https://twitter.com/pod_phonic';
 
   return (
     <div className='topContain'>
@@ -41,6 +47,19 @@ function Top() {
       </div>
     </div>
 
+    
+    <div className="linkContain">
+    <Link to="https://www.facebook.com/podphonic">
+        <img src={fb} alt="fb icon" className="fb" />
+    </Link>
+    <br></br>
+    <Link to="https://twitter.com/pod_phonic">
+        <img className='xIcon'src={x} alt="x icon" />
+    </Link>
+    
+
+    </div>
+   
 
         <img className="mainLogo" src={mainLogo} alt="main logo" />
 

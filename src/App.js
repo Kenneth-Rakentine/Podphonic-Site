@@ -11,6 +11,7 @@ import LogoTxt from './components/LogoTxt';
 import Top from './components/Top';
 import Bottom from './components/Bottom';
 import ContactUs from './components/ContactUs';
+import Links from './components/Links';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <div>
       {/* <Nav/> */}
       <Top/>
+      {/* <Links/> */}
       <Logo/>
       <LogoTxt/>
         <div className='parallax'>

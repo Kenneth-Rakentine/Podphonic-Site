@@ -125,9 +125,41 @@ button:active{
     );
 }
 
+.linkContain{
+  /* width:100%;
+  display:flex; */
+}
+
+.fb{
+  width:3.1%;
+  margin-right:-70%;
+  margin-top:.8%;
+  opacity:.64;
+  /* height:100px; */
+  cursor:pointer;
+}
+
+.fb:hover{
+  opacity:1;
+  cursor:pointer;
+}
+
+.xIcon{
+  margin-left:76.2%;
+  margin-top: -6%;
+  margin-bottom:1.1%;
+  width:3.1%;
+  opacity:.64;
+}
+
+.xIcon:hover{
+  opacity:1;
+  cursor:pointer;
+}
+
 .mainLogo{
   width:20%;
-  margin-top:5.7%;
+  margin-top:2.7%;
   border-radius:18px;
   /* box-shadow: 10px 0px 3px rgba(0, 0, 0, 0.442);  */
 

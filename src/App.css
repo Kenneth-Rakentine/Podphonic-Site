@@ -36,6 +36,11 @@ background-color:black;
   /* box-shadow: 0px 0px 4px black; */
 }
 
+.sprayIcon:active{
+  width:2.7%;
+  cursor:pointer;
+}
+
 .btnContain{
   margin-right:-50%;
   margin-top:-2.76%;

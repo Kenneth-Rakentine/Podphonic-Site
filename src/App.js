@@ -27,7 +27,7 @@ function App() {
       <Splash/>
       ) : (
       <div>
-      <Nav/>
+      {/* <Nav/> */}
       <Top/>
       <Logo/>
       <LogoTxt/>
@@ -37,7 +37,7 @@ function App() {
         </div>
         
      
-     <Lower/>
+     {/* <Lower/> */}
      </div>
     )}
     </div>

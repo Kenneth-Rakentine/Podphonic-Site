@@ -2,12 +2,15 @@ import './App.css';
 import Head from './components/Head';
 import Logo from './components/Logo';
 import { useState, useEffect } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import Splash from './pages/Splash';
 import MicFore from './components/MicFore';
 import Nav from './components/Nav';
 import Lower from './components/Lower';
 import LogoTxt from './components/LogoTxt';
 import Top from './components/Top';
+import Bottom from './components/Bottom';
+import ContactUs from './components/ContactUs';
 
 
 function App() {
@@ -36,8 +39,11 @@ function App() {
      {/* <MicFore/> */}
         </div>
         
-     
+     <Bottom/>
      {/* <Lower/> */}
+     <Routes>
+        <Route path="/contactUs" element={<ContactUs/>}/>
+    </Routes>
      </div>
     )}
     </div>

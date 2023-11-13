@@ -1,5 +1,6 @@
 import React from 'react';
-import rec from '../assets/recordbtn.png'
+import rec from '../assets/recordbtn.png';
+import recTxt from '../assets/recTxt.png'
 
 
 function Head() {
@@ -19,7 +20,11 @@ function Head() {
     </div>
 
     <div className="recTxtContain">
-    <h1 className='rectagTxt'> UNLEASH YOUR VOICE, JUST PRESS<h1 className='recordSUbTxt'>'RECORD' </h1></h1> <img className='recBtnImg' src={rec} alt='record button icon'></img>
+    {/* <h1 className='rectagTxt'> UNLEASH YOUR VOICE, JUST PRESS<h1 className='recordSUbTxt'>RECORD </h1></h1>  */}
+    
+    <img className='recTxtImg' src={recTxt} alt='record text img'></img>
+    
+    {/* <img className='recBtnImg' src={rec} alt='record button icon'></img> */}
     </div>
 
         {/* <img className="logoImg" src="https://i.ibb.co/CztcJWJ/Pod-Phonic-good-Logo-TRansparent-CUT-SHADOW-SMALLER-302x181-11-10-23.png" alt="" /> */}

@@ -1,8 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import mainLogo from '../assets/mainLogo.png'
 import spray from '../assets/sprayIcon.png'
 
 function Top() {
+
+    const reload = ()=>{
+        window.location.href= '/'
+    }
+
   return (
     <div className='topContain'>
         {/* <img className="mainLogo" src="https://i.ibb.co/HqZSYxp/PODPHONIC-MIC-LOGO-COMPLETE-1-11-11-23.png" alt="main logo" /> */}
@@ -11,13 +17,15 @@ function Top() {
         <div className='navcont'>
       
       <div className="sprayContain">
-      <img src={spray} alt="spray logo img" className="sprayIcon" />
+      <img onClick={reload} src={spray} alt="spray logo img" className="sprayIcon" />
       </div>
 
       <div className="btnContain">
+        <Link to="/contactUS">
       <button className='btn1'>
         CONTACT
       </button>
+      </Link>
       <button className='btn2'>
         SERVICES
       </button>

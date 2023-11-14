@@ -4,6 +4,7 @@ import mainLogo from '../assets/mainLogo.png';
 import spray from '../assets/sprayIcon.png';
 import fb from '../assets/fb.png';
 import x from '../assets/x.png';
+import circle from '../assets/blackCircle.png'
 
 
 function Top() {
@@ -11,6 +12,7 @@ function Top() {
     const reload = ()=>{
         window.location.href= '/'
     };
+    
 
     // const facebook = 'https://www.facebook.com/podphonic';
 
@@ -40,12 +42,16 @@ function Top() {
       <button className='btn3'>
         WORK
       </button>
+      <Link to="https://podphonic.co/?fbclid=IwAR1RkkY6zPoKeUE8GHRGmaipiBBKTBhRTNZomKf2BbOfzKiHwMEIWKBAWjo">
       <button className='btn4'>
         ABOUT
       </button>
+      </Link>
+      <Link to="mailto:info@podphonic.co">
       <button className='btn5'>
-        LINKS
+        EMAIL
       </button>
+      </Link>
       </div>
     </div>
 
@@ -62,6 +68,7 @@ function Top() {
 
     </div>
    
+        
 
         <img className="mainLogo" src={mainLogo} alt="main logo" />
 

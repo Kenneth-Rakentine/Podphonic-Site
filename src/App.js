@@ -1,7 +1,7 @@
 import './App.css';
 import Head from './components/Head';
 import Logo from './components/Logo';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Splash from './pages/Splash';
 import MicFore from './components/MicFore';
@@ -24,6 +24,7 @@ function App() {
     }, 1700);
   }, []);
 
+  
 
   return (
     <div className="App">

@@ -119,17 +119,8 @@ button:active{
 .topContain{
   height:80vh;
   color:white;
-  /* background-image: url('https://i.ibb.co/NtCTzbh/noisegradient2.jpg'); */
-
-  background-image: url("./assets/deepgreen.jpg");
-
-  /* background: #050505 url(https://grainy-gradients.vercel.app/noise.svg); */
-
-  /* filter: contrast(120%) brightness(200%);
-  background: 
-	linear-gradient(0deg, rgba(31,31,41,1), rgba(76,129,92,0.85)),
-	linear-gradient(30deg, rgba(93,131,93,1), rgba(61,51,36,1)),
-	url("data:image/svg+xml,%3Csvg viewBox='0 0 384 384' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='4.79' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E"); */
+  /* background-image: url("./assets/deepgreen.jpg"); */
+  background-image:none;
 
   background-size: cover;
   background-position: center;
@@ -150,6 +141,36 @@ button:active{
     rgba(0, 0, 0, 0.608) 90%,
     rgb(0 0 0 / 0) 90%
     );
+
+}
+
+.topContain::before {
+  content: ""; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("./assets/deepgreen.jpg");
+  background-size: cover;
+  background-position: center;
+  /* z-index:1; */
+  animation: zoom 455s ease-in-out infinite;
+}
+
+
+@keyframes zoom {
+  0% {
+    transform: scale(1); /* Start with original size */
+  }
+
+  50% {
+    transform: scale(1.5); /* Scale up to 2.1 times */
+  }
+
+  100% {
+    transform: scale(1); /* Return to original size */
+  }
 }
 
 .linkContain{
@@ -248,6 +269,9 @@ filter:drop-shadow(3px 2.4px 2.6px rgb(52, 118, 86));
   letter-spacing:1.9px;
   margin-top:1.45%;
   font-family:'lato';
+  z-index:3;
+ left:38%;
+  position:absolute;
 }
 
 .logoImg{

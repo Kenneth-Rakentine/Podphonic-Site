@@ -74,7 +74,7 @@ function Top() {
         
 
         <img className="mainLogo" src={mainLogo} alt="main logo" />
-
+        <h1 className='subTxt'>PRECISION PODCAST EDITING SERVICE</h1>
         
     </div>
     

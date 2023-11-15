@@ -272,10 +272,11 @@ filter:drop-shadow(3px 2.4px 2.6px rgb(52, 118, 86));
   font-size:22px;
   text-shadow: 3px 2px 1px black;
   letter-spacing:1.9px;
-  margin-top:1.45%;
+  margin-top:2.45%;
   font-family:'lato';
   z-index:3;
  left:38%;
+ top:60%;
   position:absolute;
   
   

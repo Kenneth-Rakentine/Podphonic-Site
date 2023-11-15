@@ -13,6 +13,9 @@ function Top() {
         window.location.href= '/'
     };
     
+    const clicker = ()=>{
+      window.scrollTo(0, document.body.scrollHeight);
+   }
 
     // const facebook = 'https://www.facebook.com/podphonic';
 
@@ -32,7 +35,7 @@ function Top() {
 
       <div className="btnContain">
         <Link to="/contactUS">
-      <button className='btn1'>
+      <button onClick={clicker} className='btn1'>
         CONTACT
       </button>
       </Link>

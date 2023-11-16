@@ -299,7 +299,7 @@ filter:drop-shadow(0px 1.1px 1px rgba(249, 244, 245, 0.559));
 /*typing*/
 @keyframes typing {
   0% { width: 0 }
-  70% { width: 33.4% }
+  70% { width: 29.4% }
 }
 
 /*typewriter cursor*/

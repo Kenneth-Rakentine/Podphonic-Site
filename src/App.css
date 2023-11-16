@@ -280,7 +280,7 @@ filter:drop-shadow(0px 1.1px 1px rgba(249, 244, 245, 0.559));
     margin-top:2.45%;
     font-family:'lato';
     z-index:3;
-   left: 37.2%;
+   left: 42.2%;
    top:66%;
     position:absolute;
     
@@ -299,7 +299,7 @@ filter:drop-shadow(0px 1.1px 1px rgba(249, 244, 245, 0.559));
 /*typing*/
 @keyframes typing {
   0% { width: 0 }
-  70% { width: 26.4% }
+  70% { width: 27.4% }
 }
 
 /*typewriter cursor*/

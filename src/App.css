@@ -256,7 +256,8 @@ button:active{
 /* opacity:.92; */
 border-radius:24px;
 /* filter:drop-shadow(5px 4px 4px rgb(0, 128, 73)); */
-filter:drop-shadow(0px 1.1px 1px rgba(249, 244, 245, 0.559));
+/* filter:drop-shadow(0px 1.1px 1px rgba(249, 244, 245, 0.559)); */
+filter:drop-shadow(0px 0px 0px rgba(249, 244, 245, 0.559));
 /* -webkit-mask-image: linear-gradient(
     rgb(0 0 0 / 1) 15%,
     rgb(0 0 0 / 0.5) 89%,

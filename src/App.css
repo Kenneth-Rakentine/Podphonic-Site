@@ -288,6 +288,19 @@ filter:drop-shadow(0px 0px 0px rgba(249, 244, 245, 0.559));
 @media (max-width: 1920px) {
   
 
+  .infoTxt{
+  top:240%;
+    color:white;
+    background-color:rgb(78, 127, 102);
+    border-radius:8px;
+    width:98%;
+    margin-left:1%;
+    position:absolute;
+    padding:8.8px;
+    box-shadow: 2.8px 3.5px 1.5px rgb(38, 70, 53);
+  }
+  
+
   .subTxt{
     font-weight:100;
     font-size:22px;

@@ -289,7 +289,7 @@ filter:drop-shadow(0px 0px 0px rgba(249, 244, 245, 0.559));
   
 
   .infoTxt{
-  top:240%;
+  top:200%;
     color:white;
     background-color:rgb(78, 127, 102);
     border-radius:8px;
@@ -298,6 +298,7 @@ filter:drop-shadow(0px 0px 0px rgba(249, 244, 245, 0.559));
     position:absolute;
     padding:8.8px;
     box-shadow: 2.8px 3.5px 1.5px rgb(38, 70, 53);
+    left:.5%
   }
   
 

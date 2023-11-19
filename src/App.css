@@ -18,6 +18,20 @@ font-family:'Segoe UI', 'Roboto', 'Oxygen',
     sans-serif;
 }
 
+
+.infoTxt{
+  margin-top:35%;
+  color:white;
+  background-color:rgb(78, 127, 102);
+  border-radius:8px;
+  width:98%;
+  margin-left:1%;
+  position:absolute;
+  padding:8.8px;
+  box-shadow: 2.8px 3.5px 1.5px rgb(38, 70, 53);
+}
+
+
 /* //__Old Nav __________________START*/
 
 .navcont{
@@ -272,6 +286,7 @@ filter:drop-shadow(0px 0px 0px rgba(249, 244, 245, 0.559));
 
 /* /------- work comp */
 @media (max-width: 1920px) {
+  
 
   .subTxt{
     font-weight:100;
@@ -308,6 +323,22 @@ filter:drop-shadow(0px 0px 0px rgba(249, 244, 245, 0.559));
   from, to { border-color: transparent }
   50% { border-color: rgb(117, 221, 161); }
 }
+
+.contactContainer {
+  position:absolute;
+  display: block;
+ /* margin-top:50%; */
+  top:300%;
+  right:40%;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  align-items:center;
+ color:white;
+  width:20%;
+  margin: 0 auto;
+  /* margin-top:500%; */
+}
+
 
 }
 
@@ -349,6 +380,18 @@ filter:drop-shadow(0px 0px 0px rgba(249, 244, 245, 0.559));
   from, to { border-color: transparent }
   50% { border-color: rgb(117, 221, 161); }
 }
+}
+
+.infoTxt{
+  margin-top:15%;
+  color:white;
+  background-color:rgb(78, 127, 102);
+  border-radius:8px;
+  width:96%;
+  margin-left:.9%;
+  position:absolute;
+  padding:8.8px;
+  box-shadow: 2.8px 3.5px 1.5px rgb(38, 70, 53);
 }
 
 .logoImg{
@@ -539,7 +582,7 @@ box-shadow: 6.6px 6.7px 5px rgba(21, 28, 22, 0.77);
   position:absolute;
   display: block;
  /* margin-top:50%; */
-  top:270%;
+  top:340%;
   right:40%;
   /* flex-direction: column; */
   /* justify-content: center; */
@@ -573,6 +616,14 @@ input[type="submit"] {
   position:absolute;
   margin-bottom:-900%;
   left:115%;
+}
+
+.micon2:hover{
+  position:absolute;
+  margin-bottom:-900%;
+  left:115%;
+  cursor:pointer;
+  opacity:.7;
 }
 
 
@@ -982,6 +1033,18 @@ margin-left:6%;
     position:absolute;
     margin-bottom:-900%;
     left:123%;
+  }
+
+  .infoTxt{
+    margin-top:-175%;
+    color:white;
+    background-color:rgb(78, 127, 102);
+    border-radius:8px;
+    width:96%;
+    margin-left:.9%;
+    position:absolute;
+    padding:8.8px;
+    box-shadow: 2.8px 3.5px 1.5px rgb(38, 70, 53);
   }
 
 

@@ -6,10 +6,31 @@ function Bottom() {
     <div> 
 
     <div className="bottomCont">
+        <h4 className='infoTxt'>
+        I’ve worked in podcasting since 2011, and have produced shows that have had Nobel Prize-winning guests and have received millions of downloads.
+        <br></br>
+        <hr></hr>
+If you’re looking to start a podcast, you’re in the right place. I will edit, mix, master, administer, and help you find guests for your podcast. Starting a podcast is a very powerful marketing tool and a great way to make connections with others within your industry. Ever thought about it? It might be the time.
+<br></br>
+Lots of ‘umms’ and ‘uhhs’ in your speech? I can make anyone sound like a professional public speaker with some magic editing. Show notes? Check. I’ll do that for you. Making sure episodes go up on all the platforms on time? That’s me. If you’re scared off by tech stuff, don’t worry, I’ve got your back. <br></br>All you have to do is press record, upload the file to me, and I’ll take care of the rest!
+&nbsp;<br></br>
+<br></br>
+Want to work with me?
+<br></br>
 
-        <p></p>
+Send me an email at info@podphonic.co
+<br></br>
+<br></br>
+EDITING | ADMINISTRATION | MIXING | MASTERING | GUESTING | & MORE
+        </h4>
+        {/* <p></p> */}
         <div className="creditContain">
-        <p className='rightsTxt'>© All rights reserved by PodPhonic</p><img src={micon2} className='micon2' alt='microphone icon small'></img>
+        <p className='rightsTxt'>© All rights reserved by PodPhonic</p><img src={micon2} className='micon2' onClick={() => {
+    window.scrollTo({
+        behavior: 'smooth',
+        top: 0
+    });
+}} alt='microphone icon small'></img>
         </div>
     </div>
 

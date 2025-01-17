@@ -1,0 +1,38 @@
+.splash-container{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content: start;    
+    align-items: start;    
+    background-color: rgba(146, 135, 135, 0.74);
+}
+
+.splash-container img{
+    width:100%;
+    height:auto;
+    margin-top:-22.7%;
+}
+
+@media (max-width:392px){
+    
+    .splash-container{
+        position:fixed;
+        top:0;
+        left:0;
+        width:100%;
+        display:flex;
+        justify-content: start;    
+        align-items: start;    
+        background-color: rgba(0, 0, 0, 0.74);
+    }
+    
+    .splash-container img{
+        width:100%;
+        height:auto;
+        margin-top:50.0%;
+    }
+    
+
+}
